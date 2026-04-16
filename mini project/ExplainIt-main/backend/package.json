@@ -1,0 +1,23 @@
+{
+    "name": "ml-platform-backend",
+    "version": "1.0.0",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "@google/generative-ai": "^0.24.1",
+        "@huggingface/inference": "^4.13.9",
+        "cors": "^2.8.5",
+        "dotenv": "^16.6.1",
+        "express": "^4.22.1",
+        "groq-sdk": "^0.37.0",
+        "openai": "^6.16.0",
+        "pdf-parse": "^1.1.4",
+        "sqlite3": "^5.1.7"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": ""
+}
